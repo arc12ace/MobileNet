@@ -1,0 +1,64 @@
+body{
+    font-family: 'New Tegomin', serif;
+    background-color: lightcoral;
+}
+.header img{
+    width: 100px;
+    border-radius: 50%;
+}
+.header{
+    background: lightpink;
+    box-shadow: 10px 10px 20px white;
+    font-size: 35px;
+}
+.main_div{
+    background: salmon;
+    padding: 10px;
+    border: 3px solid white;
+}
+.main_div label{
+    width: 300px;
+    background: white;
+    box-shadow: 5px 5px 10px lightpink;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.main_div button{
+    width: 300px;
+    font-size: 30px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 10px white;
+}
+#camera,#snapshot{
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 20px white;
+}
+#output_div{
+    margin:20px;
+    align-items: left;
+}
+#output_div h4{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+    padding: 10px;
+    text-align: left;
+    width: 70%;
+}
+#output_div img{
+    width: 100px;
+}
+#footer_div{
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    line-height: 2;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
